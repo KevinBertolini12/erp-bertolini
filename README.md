@@ -1,57 +1,57 @@
-# ERP / PDV Desktop em Python
+# 📦 Bertolini ERP — Sistema de Gestão Empresarial & PDV Desktop
 
-Sistema **ERP / PDV desktop** desenvolvido em **Python**, com foco em controle de produtos, estoque, vendas (caixa), relatórios e dashboard gerencial.
+> Sistema ERP / PDV desktop desenvolvido em Python com arquitetura offline-first, focado em controle de produtos, estoque em tempo real, vendas (caixa), relatórios e dashboard gerencial.
 
-Projeto criado com objetivo de **estudo prático, portfólio e evolução para um sistema comercial real**.
+---
+
+## 📌 Sobre o Projeto
+
+O **Bertolini ERP** é uma aplicação desktop completa criada para estudo prático, portfólio e evolução para um sistema comercial real. Ele combina uma interface gráfica moderna feita em Qt com uma API local e banco de dados rápido para garantir autonomia e performance.
+
+### 🚀 Funcionalidades Implementadas
+
+- **📦 Produtos:** Cadastro, edição, exclusão, SKU opcional e controle de estoque em tempo real.
+- **📊 Estoque:** Ajustes manuais (entrada/saída), histórico de movimentações e integração automática com vendas.
+- **🧾 PDV / Caixa:** Busca rápida por nome ou SKU, adição ao carrinho via Enter, controle de quantidade e atualização automática do estoque.
+- **📈 Dashboard Gerencial:** Total de produtos, estoque total, alerta de estoque baixo e gráfico de movimentação de estoque dos últimos dias.
+- **📑 Relatórios:** Resumo geral e movimentações por período com base para relatórios financeiros.
+- **🏭 Fornecedores:** Cadastro e listagem estruturados para vínculo futuro com produtos.
 
 ---
 
 ## 🧱 Stack Tecnológica
 
-- **Python 3.11+**
-- **PySide6 (Qt)** – Interface desktop
-- **FastAPI** – API local
-- **SQLAlchemy (async)** – ORM
-- **SQLite** (modo local/offline)
-- **PostgreSQL** (planejado para multi-PC)
-- **Alembic** – Migrations de banco
-- Arquitetura **offline-first**
+- **Linguagem:** Python 3.11+
+- **Interface Desktop:** PySide6 (Qt)
+- **API Local:** FastAPI
+- **ORM & Banco de Dados:** SQLAlchemy (async), SQLite (modo local/offline), PostgreSQL (planejado para multi-PC)
+- **Migrations:** Alembic
+- **Arquitetura:** Offline-First
 
 ---
 
-## 🚀 Funcionalidades Implementadas
+## 💻 Como Executar o Projeto Localmente
 
-### 📦 Produtos
-- Cadastro, edição e exclusão
-- SKU opcional
-- Controle de estoque em tempo real
+```bash
+# Clonar o repositório
+git clone [https://github.com/KevinBertolini12/bertolini-erp.git](https://github.com/KevinBertolini12/bertolini-erp.git)
 
-### 📊 Estoque
-- Ajustes manuais (entrada/saída)
-- Histórico de movimentações
-- Integração automática com vendas
+# Entrar na pasta do projeto
+cd bertolini-erp
 
-### 🧾 PDV / Caixa
-- Busca rápida por nome ou SKU
-- Adição ao carrinho via **Enter**
-- Controle de quantidade
-- Finalização de venda
-- Atualização automática do estoque
+# Criar e ativar o ambiente virtual
+python -m venv venv
 
-### 📈 Dashboard
-- Total de produtos
-- Estoque total
-- Produtos com estoque baixo
-- Gráfico de movimentação de estoque (últimos dias)
+# No Windows:
+venv\Scripts\activate
+# No Linux/Mac:
+source venv/bin/activate
 
-### 📑 Relatórios
-- Resumo geral
-- Movimentações por período
-- Base para relatórios financeiros
+# Instalar as dependências
+pip install -r requirements.txt
 
-### 🏭 Fornecedores
-- Cadastro e listagem
-- Estrutura pronta para vínculo com produtos
+# Executar a aplicação
+python main.py
 
 ---
 
