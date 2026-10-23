@@ -64,15 +64,6 @@ python main.py
 
 
 
-
-
-
-
-
-
-
-
-
 ---
 
 ## 🖥️ Screenshots
