@@ -1,3 +1,9 @@
+<!-- NAVEGAÇÃO DE IDIOMAS -->
+<div align="right">
+  <a href="https://github.com/KevinBertolini12/bertolini-erp/blob/main/README.md"><img src="https://img.shields.io/badge/Português-2E6EEF?style=for-the-badge&logo=github&logoColor=white" alt="Versão em Português"></a>
+  <a href="https://github.com/KevinBertolini12/bertolini-erp/blob/main/README_EN.md"><img src="https://img.shields.io/badge/English-1f2428?style=for-the-badge&logo=github&logoColor=white" alt="English Version"></a>
+</div>
+
 # 📦 Bertolini ERP — Sistema de Gestão Empresarial & PDV Desktop
 
 > Sistema ERP / PDV desktop desenvolvido em Python com arquitetura offline-first, focado em controle de produtos, estoque em tempo real, vendas (caixa), relatórios e dashboard gerencial.
@@ -34,7 +40,7 @@ O **Bertolini ERP** é uma aplicação desktop completa desenvolvida para simpli
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/KevinBertolini12/bertolini-erp.git
+git clone [https://github.com/KevinBertolini12/bertolini-erp.git](https://github.com/KevinBertolini12/bertolini-erp.git)
 
 # Entrar na pasta do projeto
 cd bertolini-erp
