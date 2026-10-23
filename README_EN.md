@@ -76,5 +76,5 @@ python main.py
 ---
 
 
-👤 Autor:
-Desenvolvido por Kevin Bertolini
+👤 Author:
+Developed by Kevin Bertolini
