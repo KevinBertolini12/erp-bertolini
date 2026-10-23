@@ -67,7 +67,5 @@ python main.py
 ---
 
 
-👨‍💻 Author:
-Kevin Bertolini
-
-Project developed as part of a professional transition and growth in the technology field.
+👤 Autor:
+Desenvolvido por Kevin Bertolini
