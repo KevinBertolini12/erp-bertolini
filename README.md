@@ -6,7 +6,7 @@
 
 ## 📌 Sobre o Projeto
 
-O **Bertolini ERP** é uma aplicação desktop completa criada para estudo prático, portfólio e evolução para um sistema comercial real. Ele combina uma interface gráfica moderna feita em Qt com uma API local e banco de dados rápido para garantir autonomia e performance.
+O **Bertolini ERP** foi desenvolvido para simplificar a gestão operacional de micro e pequenas empresas. Integrando uma interface gráfica moderna e responsiva a um motor de backend rápido e seguro, o sistema oferece controle total de inventário, caixa e vendas diárias.
 
 ### 🚀 Funcionalidades Implementadas
 
